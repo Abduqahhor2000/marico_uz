@@ -4,7 +4,7 @@ import Button from "../micro/button";
 function Sub_title({ className }) {
   return (
     <div className={`overflow-x-hidden max-w-[750px] mx-auto px-5 ${className}`}>
-      <div className="text-white text-[25px] leading-normal font-medium text-center md:text-[40px]">
+      <div className="text-white text-lg sm:text-[25px] leading-normal font-medium text-center md:text-[40px]">
         Turn your audience into email and text message subscribers.
       </div>
       <div className="pt-[50px] flex justify-evenly max-md:flex-col">

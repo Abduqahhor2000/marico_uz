@@ -19,7 +19,7 @@ function End({ className }) {
       <Button className="!py-5 sm:!py-[30px] max-sm:w-full sm:!px-[115px] !text-[30px]">
         Get Started Now
       </Button>
-      <div className="max-md:text-xl text-[38px] leading-normal flex items-center justify-center flex-wrap text-border pt-6">
+      <div className="max-md:text-lg text-[38px] leading-normal flex items-center justify-center flex-wrap text-border pt-6">
         <span className="h-7 w-7 p-[5px] bg-[rgb(15,198,92)]/40 rounded-full flex items-center justify-center">
           <span className="h-full w-full rounded-full bg-[rgb(15,198,92)]"></span>
         </span>
