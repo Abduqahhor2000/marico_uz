@@ -14,7 +14,7 @@ function Services({ className }) {
             <span className="text-light">ALL You Create.</span> One Link
           </div>
           <div className="pl-5 flex justify-end">
-            <Image loading="lazy" width={788} height={338} src="/mobile.svg" alt="" />
+            <Image width={788} height={338} src="/mobile.svg" alt="" />
           </div>
         </div>
         <div className="pt-8 pl-6 sm:pl-11 bg-darker pb-28">

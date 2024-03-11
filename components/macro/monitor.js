@@ -44,7 +44,6 @@ function Monitor({ words, className }) {
       <div className="flex justify-end">
         <div className="pl-5">
           <Image
-            loading="lazy"
             width={820}
             height={715}
             src={words?.img}

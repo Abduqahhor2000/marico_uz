@@ -8,7 +8,7 @@ function End({ className }) {
       className={`max-w-[900px] mx-auto flex flex-col items-center text-white px-2 ${className}`}
     >
       <div className="max-sm:w-20">
-        <Image loading="lazy" width={165} height={155} src={"logo.svg"} alt="" />
+        <Image width={165} height={155} src={"logo.svg"} alt="" />
       </div>
       <div className="text-5xl sm:text-[100px] leading-normal font-bold text-center pt-5">
         Get Started Now
