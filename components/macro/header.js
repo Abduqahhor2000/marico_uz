@@ -6,11 +6,11 @@ import Hamburger from "../micro/hamburger";
 import Drawer from "./drawer";
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <>
-      <div className="sticky top-0 text-white flex flex-wrap justify-between max-w-[1700px] px-[30px] mx-auto pt-[46px] bg-black">
+      <div className="sticky z-10 overflow-x-hidden top-0 left-0 text-white flex flex-wrap justify-between max-w-[1700px] px-[30px] mx-auto pt-[46px] bg-black pb-2">
         <div className="flex items-center">
           <Image
             src="/logo.svg"

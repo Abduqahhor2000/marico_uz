@@ -3,7 +3,7 @@ import Button from "../micro/button";
 
 function Sub_title({ className }) {
   return (
-    <div className={`max-w-[750px] mx-auto px-5 ${className}`}>
+    <div className={`overflow-x-hidden max-w-[750px] mx-auto px-5 ${className}`}>
       <div className="text-white text-[25px] leading-normal font-medium text-center md:text-[40px]">
         Turn your audience into email and text message subscribers.
       </div>
@@ -13,12 +13,12 @@ function Sub_title({ className }) {
           View a Demo
         </Button>
       </div>
-      <div className="text-[25px] max-md:text-lg leading-normal flex items-center justify-center">
+      <div className="text-[25px] max-md:text-lg leading-normal flex items-center justify-center flex-wrap text-border">
         <span className="h-7 w-7 p-[5px] bg-[rgb(15,198,92)]/40 rounded-full flex items-center justify-center">
           <span className="h-full w-full rounded-full bg-[rgb(15,198,92)]"></span>
         </span>
         <span className="text-white font-bold px-2.5">1000+</span>
-        <span className="text-border">creators have already started</span>
+        creators have already started
       </div>
     </div>
   );

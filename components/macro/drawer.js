@@ -8,7 +8,7 @@ function Drawer({ isOpen, setIsOpen }) {
     <div
       ref={ref}
       onClick={(e) => (e.target === ref.current ? setIsOpen(true) : "")}
-      className={`fixed top-28 w-screen h-screen duration-500 lg:hidden ${
+      className={`z-10 fixed top-28 w-screen h-screen duration-500 lg:hidden ${
         isOpen ? "-right-full" : "right-0"
       }`}
     >
