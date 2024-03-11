@@ -10,6 +10,7 @@ function Footer({ className }) {
           <Image
             src="/logo.svg"
             alt=""
+            loading="lazy"
             width={47}
             height={51}
             className="mr-6"

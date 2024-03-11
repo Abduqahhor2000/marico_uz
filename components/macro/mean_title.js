@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import Item_sub from "../micro/item_sub";
 

@@ -11,7 +11,7 @@ function Comments({ className }) {
       </div>
       <div className="w-full overflow-x-auto [&::-webkit-scrollbar]:hidden">
         <div className="w-[1300px] md:w-[1800px]">
-          <Image src={"/coments.png"} height={440} width={1826} alt="" />
+          <Image loading="lazy" src={"/coments.png"} height={440} width={1826} alt="" />
         </div>
       </div>
     </div>

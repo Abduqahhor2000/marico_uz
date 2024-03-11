@@ -4,6 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <title>Marico.uz</title>
+      <link rel="icon" href="/logo.svg" sizes="any" />
       <body>
         <Main />
         <NextScript />
