@@ -13,7 +13,7 @@ import Aos from "@/components/micro/aos";
 
 export default function Home() {
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-black min-h-screen pt-[46px]">
       <Aos/>
       <Header />
       <Title className="pt-20 md:pt-32" />
