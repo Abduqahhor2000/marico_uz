@@ -41,7 +41,7 @@ function Monitor({ words, className }) {
           <Button variant="outlined">View A Demo</Button>
         </div>
       </div>
-      <div data-aos="fade-down-left" data-aos-duration="1200" className="flex justify-end">
+      <div data-aos="fade-down-left" data-aos-duration="1200" data-aos-delay="0"  className="flex justify-end">
         <div className="pl-5">
           <Image
             width={820}
