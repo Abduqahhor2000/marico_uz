@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Services({ className }) {
   return (
-    <div className={`text-white ${className}`}>
+    <div className={`text-white ${className} overflow-hidden`}>
       <div className="max-w-[1740px] mx-auto px-5 pb-[50px] grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div data-aos="zoom-in-right" className="pt-8 pl-6 sm:pl-11 bg-darker">
           <div className="text-green-500 text-xl sm:text-[30px] leading-normal pb-8">

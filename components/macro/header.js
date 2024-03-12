@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <>
-      <div className="sticky z-10 overflow-x-hidden -top-0.5 left-0 text-white flex flex-wrap justify-between max-w-[1700px] px-[30px] mx-auto bg-black py-2">
+      <div className="sticky z-10 overflow-x-hidden -top-0.5 left-0 text-white flex flex-wrap justify-between max-w-[1700px] w-full px-[30px] mx-auto bg-black py-2">
         <div className="flex items-center">
           <Image
             src="/logo.svg"
