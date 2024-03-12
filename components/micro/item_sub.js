@@ -3,7 +3,7 @@ import React from "react";
 
 function Item_sub({ title="", children="", ...props }) {
   return (
-    <div className="flex flex-col items-center px-5 min-w-[350px] mb-8">
+    <div data-aos="fade-up" className="flex flex-col items-center px-5 min-w-[350px] mb-8">
       <h3 className="flex items-center text-2xl md:text-[35px] leading-normal font-semibold pb-2.5">
         <Image src="/smile.svg" alt="" width={37} height={37} {...props} />
         <span className="pl-2">{title}</span>

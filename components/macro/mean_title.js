@@ -4,10 +4,10 @@ import Item_sub from "../micro/item_sub";
 function Mean_title({ className, ...props }) {
   return (
     <div
-      className={`overflow-x-hidden max-w-[1485px] mx-auto px-5 text-white ${className}`}
+      className={`overflow-hidden max-w-[1485px] mx-auto px-5 text-white ${className}`}
       {...props}
     >
-      <div className="text-[35px] md:text-[60px] xl:text-[75px] leading-normal font-semibold pb-16 text-center px-5 ">
+      <div data-aos="fade-up" className="text-[35px] md:text-[60px] xl:text-[75px] leading-normal font-semibold pb-16 text-center px-5 ">
         Why Creators Love Marico
       </div>
       <div className="flex flex-wrap justify-around">
