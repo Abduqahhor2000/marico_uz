@@ -16,7 +16,7 @@ function Monitor({ words, className }) {
     <div
       className={`max-w-[1585px] overflow-x-hidden mx-auto text-white flex max-xl:flex-col justify-between ${className}`}
     >
-      <div className="xl:min-w-[610px] max-xl:pb-10 px-5">
+      <div data-aos="fade-right" className="xl:min-w-[610px] max-xl:pb-10 px-5">
         <p className="text-xl md:text-[30px] leading-normal pt-2 pb-8 md:pb-12 xl:pb-20 font-medium">
           {words?.title}
         </p>
@@ -41,7 +41,7 @@ function Monitor({ words, className }) {
           <Button variant="outlined">View A Demo</Button>
         </div>
       </div>
-      <div className="flex justify-end">
+      <div data-aos="fade-down-left" data-aos-duration="1200" className="flex justify-end">
         <div className="pl-5">
           <Image
             width={820}

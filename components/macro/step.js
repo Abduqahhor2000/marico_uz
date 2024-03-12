@@ -3,7 +3,7 @@ import Button from "../micro/button";
 
 function Step({count=1, title="", descreption="", haveButton=false, className}) {
   return (
-    <div className={`mx-auto overflow-x-hidden text-white flex flex-col items-center px-5 ${className}`}>
+    <div data-aos="fade-up" className={`mx-auto overflow-x-hidden text-white flex flex-col items-center px-5 ${className}`}>
       <div className="uppercase text-2xl leading-normal text-primary">Step {count}</div>
       <div className="text-[35px] md:text-[60px] xl:text-[75px] leading-normal font-semibold text-center">{title}</div>
       <div className="text-xl md:text-[30px] leading-normal text-border text-center max-w-[969px]">

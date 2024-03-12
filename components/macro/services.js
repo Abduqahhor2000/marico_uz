@@ -6,7 +6,7 @@ function Services({ className }) {
   return (
     <div className={`text-white ${className}`}>
       <div className="max-w-[1740px] mx-auto px-5 pb-[50px] grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="pt-8 pl-6 sm:pl-11 bg-darker">
+        <div data-aos="zoom-in-right" className="pt-8 pl-6 sm:pl-11 bg-darker">
           <div className="text-green-500 text-xl sm:text-[30px] leading-normal pb-8">
             One Link
           </div>
@@ -17,7 +17,7 @@ function Services({ className }) {
             <Image width={788} height={338} src="/mobile.svg" alt="" />
           </div>
         </div>
-        <div className="pt-8 pl-6 sm:pl-11 bg-darker pb-28">
+        <div data-aos="zoom-in-left" className="pt-8 pl-6 sm:pl-11 bg-darker pb-28">
           <div className="text-green-500 text-xl lg:text-[30px] leading-normal pb-12 sm:pb-24">
             Collect Subscribers
           </div>

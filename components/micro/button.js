@@ -10,12 +10,12 @@ function Button({
   return (
     <Link href={"https://t.me/deyil"}>
       <div
-        className={`select-none text-center rounded-xl pt-[18px] pb-[17px] px-[22px] text-xl leading-normal font-medium border duration-200 hover:cursor-pointer active:opacity-80 ${
+        className={`select-none text-center rounded-xl pt-[18px] pb-[17px] px-[22px] text-xl leading-normal font-medium border duration-200 hover:cursor-pointer active:scale-95 ${
           variant === "text"
             ? "border-transparent text-border hover:text-white"
             : variant === "outlined"
             ? " border-border text-border hover:text-white hover:border-white"
-            : "bg-primary border-primary text-white "
+            : "bg-primary border-primary text-white"
         } ${className}`}
         {...props}
       >

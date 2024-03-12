@@ -9,10 +9,12 @@ import Comments from "@/components/macro/comments";
 import Character from "@/components/macro/character";
 import End from "@/components/macro/end";
 import Footer from "@/components/macro/footer";
+import Aos from "@/components/micro/aos";
 
 export default function Home() {
   return (
     <div className="bg-black min-h-screen">
+      <Aos/>
       <Header />
       <Title className="pt-20 md:pt-32" />
       <Sub_title className="pt-24 md:pt-[136px]" />
@@ -63,7 +65,7 @@ export default function Home() {
         }}
         className="pt-[100px] md:pt-[182px]"
       />
-      <Comments className={"pt-20 sm:pt-24"}/>
+      <Comments className={"pt-20 sm:pt-24"} />
       <Character className={"pt-16 md:pt-44"} />
       <End className="pt-16 sm:pt-44" />
       <Footer className={"pt-[80px] sm:pt-[188px] pb-[45px] sm:pb-[100px]"} />

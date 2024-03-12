@@ -2,7 +2,7 @@ import React from "react";
 
 function Title({ className }) {
   return (
-    <div
+    <div data-aos="fade-down"
       className={`text-clip overflow-hidden  font-bold px-2 text-[35px] sm:text-[55px] md:text-[80px] xl:text-[112px] leading-normal text-white max-sm:w-full sm:mx-auto text-center min-w-min ${className}`}
     >
       <div>
